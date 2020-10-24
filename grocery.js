@@ -10,7 +10,7 @@ function printItems(groceryItems) {
     var text = "";
     for (var i = 0; i < groceryItems.length; i++) {
         var item = groceryItems[i];
-        text += item.name + " " + item.quantity + " " + item.department + "<br/>";
+        text += "Name: " + item.name + ", Quantity: " + item.quantity + ", Department: " + item.department + "\r\n";
     }
     return text;
 }

@@ -1,4 +1,7 @@
-﻿
+﻿/**Eric Olsen
+ * SWDV 665 1W
+ * Week 1 Typescript Assignment
+ * */
 
 class Grocery {
     name: string;
@@ -16,7 +19,7 @@ function printItems(groceryItems) {
     let text = "";
     for (var i = 0; i < groceryItems.length; i++) {
         let item = groceryItems[i];
-        text += item.name + " " + item.quantity + " " + item.department + "<br/>";
+        text += "Name: " +item.name + ", Quantity: " + item.quantity + ", Department: " + item.department + "\r\n";
     }
     return text
 }
